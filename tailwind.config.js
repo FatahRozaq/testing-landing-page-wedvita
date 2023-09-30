@@ -25,12 +25,17 @@ export default {
         'wedvita-purple': '#5C4B99', //untuk ungu normal
         'wedvita-beige': '#FFF3EB',
         'wedvita-text-light': '#757095',
+        'wedvita-sidebar-dark' : '#160A2B',
+        'wedvita-content-beige' : '#F2EEEB',
+        'wedvita-text-light-purple' : '#B8BED9',
+
       },
       fontSize: {
         '1setxl': '1.3rem',
       },
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
         'GreatVibes': ['GreatVibes', 'script']
       },
     },

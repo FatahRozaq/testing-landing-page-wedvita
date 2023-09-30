@@ -7,6 +7,7 @@ import DashboardUser from "./Views/Users/DashboardUser.jsx";
 import Guest from "./Components/GuestLayout.jsx";
 import DefaultLayout from "./Components/DefaultLayout.jsx";
 import LandingPage from "./LandingPage.jsx";
+import UserProfile from "./user-profile.jsx";
 import { Navigate } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
     {
         path: '/home',
         element: <LandingPage />
+    },
+    {
+        path: '/cms-user-profile',
+        element: <UserProfile />
     }
 ])
 
