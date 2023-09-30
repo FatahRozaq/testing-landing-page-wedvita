@@ -110,7 +110,7 @@ function App() {
       </body>
 
       <footer class="bg-wedvita-beige py-4">
-        <div class="container text-center">
+        <div class="container mx-auto text-center">
           <h1 class="grid-item mb-4 text-3xl font-bold leading-none tracking-tight text-gray-900">Contact Us</h1>
           <p class="px-60 font-normal grid-item mb-8 leading-8 tracking-tight text-wedvita-text-light md:text-1setxl ">At Wedvita, we're here to make your wedding journey as smooth and delightful as possible. Whether you have questions, need assistance, or simply want to share your thoughts, our dedicated team is ready to help.</p>
           <p class="grid-item mb-4 text-xl font-bold leading-none tracking-tight text-gray-900 flex justify-center items-center">Follow Us<span class="inline-block"><img src={sosmed} alt="Image" class="ml-8" /></span></p>
